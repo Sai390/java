@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+class Main
+{
+public static void main(String args[])
+{
+String sentence1,sentence2;
+Scanner a =new Scanner(System.in);
+sentence1=a.nextLine();
+sentence2=a.nextLine();
+boolean var=sentence1.equalsIgnoreCase(sentence2);
+System.out.println(var);
+}
+}
